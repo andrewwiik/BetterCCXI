@@ -1,0 +1,2 @@
+@interface SBWorkspace : NSObject
+@end

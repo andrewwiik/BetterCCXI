@@ -1,0 +1,2 @@
+@interface SBWindow : UIWindow
+@end

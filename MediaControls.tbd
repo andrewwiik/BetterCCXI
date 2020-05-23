@@ -1,0 +1,26 @@
+--- !tapi-tbd-v2
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+flags:                 [ not_app_extension_safe ]
+install-name:          /System/Library/PrivateFrameworks/MediaControls.framework/MediaControls
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:              [ armv7, armv7s, arm64 ]
+    symbols:            [ _MediaControlsButtonLeftRightPadding, _MediaControlsCoverSheetPadding,
+                          _MediaControlsHeaderViewCaptionBaselineToBaseline, _MediaControlsLargeModulePadding,
+                          _MediaControlsMaxHeightOfPillModule, _MediaControlsMaxWidthOfCondensedModule,
+                          _MediaControlsPanelCenterViewHeight, _MediaControlsPanelHeaderViewHeight,
+                          _MediaControlsPanelVolumeSliderHeight, _MediaControlsSmallModulePadding, _MediaControlsVersionNumber,
+                          _MediaControlsVersionString ]
+    objc-classes:       [ _MediaControlsCollectionViewController, _MediaControlsContainerView,
+                          _MediaControlsEndpointsViewController, _MediaControlsHeaderView, _MRPlatterViewController,
+                          _MediaControlsParentContainerView, _MediaControlsPrimaryControlCenterStyling,
+                          _MediaControlsPrimaryCoverSheetStyling, _MediaControlsRoutingCornerView,
+                          _MediaControlsSecondaryControlCenterStyling, _MediaControlsSecondaryCoverSheetStyling,
+                          _MediaControlsStyleCoordinator, _MediaControlsTertiaryControlCenterStyling,
+                          _MediaControlsTertiaryCoverSheetStyling, _MediaControlsTheme, _MediaControlsTimeControl,
+                          _MediaControlsTransportButton, _MediaControlsTransportStackView, _MediaControlsVolumeContainerView,
+                          __MediaControlsEndpointsDataSource ]
+...

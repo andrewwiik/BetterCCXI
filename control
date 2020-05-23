@@ -1,0 +1,9 @@
+Package: com.atwiiks.betterccxi
+Name: BetterCCXI
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Version: 1.6.0
+Architecture: iphoneos-arm
+Description: Enhance your control center on iOS 11 and iOS 12
+Maintainer: ATWiiks
+Author: ATWiiks
+Section: Tweaks

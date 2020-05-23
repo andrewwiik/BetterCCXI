@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Connectivity Module Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.atwiiks.betterccxi</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>isController</key>
+			<true/>
+			<key>key</key>
+			<string>connectModuleSize</string>
+			<key>label</key>
+			<string>Module Size</string>
+			<key>PostNotification</key>
+			<string>com.atwiiks.betterccxi/settingschanged</string>
+			<key>validTitles</key>
+			<array>
+				<string>4 Wide X 1 Tall</string>
+				<string>3 Wide X 2 Tall</string>
+				<string>2 Wide X 3 Tall</string>
+				<string>2 Wide X 2 Tall</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Music Module Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.atwiiks.betterccxi</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>isController</key>
+			<true/>
+			<key>key</key>
+			<string>musicModuleSize</string>
+			<key>label</key>
+			<string>Module Size</string>
+			<key>PostNotification</key>
+			<string>com.atwiiks.betterccxi/settingschanged</string>
+			<key>validTitles</key>
+			<array>
+				<string>4 Wide X 2 Tall</string>
+				<string>3 Wide X 2 Tall</string>
+				<string>2 Wide X 2 Tall</string>
+				<string>2 Wide X 2 Tall (Regular)</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>6</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.atwiiks.betterccxi</string>
+			<key>PostNotification</key>
+			<string>com.atwiiks.betterccxi/settingschanged</string>
+			<key>key</key>
+			<string>useArtworkBG</string>
+			<key>label</key>
+			<string>Use Artwork BG</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Weather Module Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.atwiiks.betterccxi</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>isController</key>
+			<true/>
+			<key>key</key>
+			<string>weatherModuleSize</string>
+			<key>label</key>
+			<string>Module Size</string>
+			<key>PostNotification</key>
+			<string>com.atwiiks.betterccxi/settingschanged</string>
+			<key>validTitles</key>
+			<array>
+				<string>4 Wide X 2 Tall</string>
+				<string>4 Wide X 1 Tall</string>
+				<string>3 Wide X 1 Tall</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.atwiiks.betterccxi</string>
+			<key>PostNotification</key>
+			<string>com.atwiiks.betterccxi/settingschanged</string>
+			<key>key</key>
+			<string>useLiveWeatherBG</string>
+			<key>label</key>
+			<string>Live Weather Background</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Misc.</string>
+			<key>footerText</key>
+			<string>You need to Respring when you change any of these settings</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>BetterCCXI</string>
+</dict>
+</plist>

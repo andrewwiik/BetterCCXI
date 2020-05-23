@@ -1,0 +1,9 @@
+Package: com.atwiiks.betterccxiweather
+Name: BetterCCXI (Weather Addon)
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, com.atwiiks.betterccxi
+Version: 1.0.3
+Architecture: iphoneos-arm
+Description: Weather Module for BetterCCXI
+Maintainer: ATWiiks
+Author: ATWiiks
+Section: Tweaks
